@@ -2,3 +2,8 @@
   background: url("img/top-hero.jpg") no-repeat center center;
   background-size: cover;
 }
+
+.block-home-hero {
+  background: url("img/inhome.png") no-repeat center center;
+  background-size: cover;
+}
