@@ -3,7 +3,7 @@
   background-size: cover;
 }
 
-.block-home-hero {
-  background: url("img/inhome.png") no-repeat center center;
+.in-home-hero {
+  background: "public/img/inhome.png" no-repeat center center;
   background-size: cover;
 }
