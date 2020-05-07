@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -7,176 +7,378 @@
 	<meta charset="utf-8">
 
 	<!-- Connect to Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-<!-- Connect to Font Awesome CSS -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.2/css/all.css">
+	<!-- Connect to Font Awesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.2/css/all.css">
 
-<!-- Connect to our own additional CSS -->
-<link href="public/style.css" rel="stylesheet">
+	<!-- Connect to our own additional CSS -->
 
-<!-- Connect to jQuery (required before Bootstrap Javascript) -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-	integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-</script>
+	<!-- Connect to jQuery (required before Bootstrap Javascript) -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
 
-<!-- Connect to Bootstrap Javascript -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-</script>
+	<!-- Connect to Bootstrap Javascript -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 
 
-<!-- These meta tags make Bootstrap responsive and more accessible
+	<!-- These meta tags make Bootstrap responsive and more accessible -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Connect to Google Web Fonts -->
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
 
+	<link href="/styles.css" rel="stylesheet">
 </head>
 
 <body>
-	<!-- <section>
-    <div class="h1 font-weight-bold mb-2 bg-primary">
-      <span>
-      BLIP
-      </span>
-    </div>
-	</section> -->
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+		<a class="navbar-brand" href="https://www.google.com">
+			<span class="h2 font-weight-bold">FOODHUB</span>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-	<nav class="navbar navbar-light bg-light">
-		<span class="navbar-brand mb-0 h1">BLIP</span>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			</ul>
+
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active" href="https://www.google.com">
+						Sign In
+					</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link active" href="https://www.google.com">
+						<i class="fa fa-shopping-bag fa-lg"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
-
-
-	<section class="block-hero"
-		style="background-image: url(img/top-hero.jpg);">
-		<div class="inner">
-			<div class="hero-info">
-				<h1 style="color:#ffffff; margin-top:15px" class="text-shadow"> Responsible Battery Second-Use
-					<br />Saving you money</h1>
-					<p class="buttons">
-						<a href="#" class="sg-show-popup cta-btn primary-btn" data-sgpopupid="1"
-							data-popup-event="click">Secure It Now</a>
-						<a href="https://blip.com/product/" class="cta-btn">More Info</a>
-            <!-- make blip.com/product page -->
-					</p>
-			</div>
-		</div>
-	</section>
-
-	<section class="in-home-hero"
-  	style="background-image: url(img/inhome.png); height: 800px;">
-		<div class="col-md-3">
-			<div class="narrow text-light">
-				<h1>How Blip Works</h1>
-				<p>Blip lowers energy cost by charging when electricity is cheap and powering your highest load electronics when electricity is at its peak price. We keep the cost of Blip low by using retired EV batteries </p>
-			</div>
-			<!-- <div class="wide">
-				<div class="embed-container vid">
-					<video width="320" height="240" controls autoplay loop>
-						<source src="
-  https://orison.com/wp-content/uploads/2016/10/ORI-House-Revision_v09-1.mp4" type="video/mp4">
-					</video>
-				</div>
-			</div> -->
-		</div>
-	</section>
-	<section class="what is py-3">
-		<div class="container-fluid">
-			<div>
-				<h2 class="mb-3 text-center">
-					Why Blip?
-				</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-3 text-center">
-				<img src="img/decrease.png" class="rounded-circle spotlight-image" width="70" >
-				<p>
-					Decrease Electricity Costs
-				</p>
-			</div>
-			<div class="col-3 text-center">
-				<img src="img/control.png" class="rounded-circle spotlight-image" width="70">
-				<p>
-					Increase Control
-				</p>
-			</div>
-			<div class="col-3 text-center">
-				<img src="img/grid.png" class="rounded-circle spotlight-image" width="70" >
-				<p>
-					Stabilize Grid
-				</p>
-			</div>
-			<div class="col-3 text-center">
-				<img src="img/conserve.png" class="rounded-circle spotlight-image" width="70">
-				<p>
-					Conserve Natural Resources
-				</p>
-			</div>
-		</div>
-		</div>
-		</div>
-	</section>
-
 
 	<section class="who-delivers text-white py-6">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6 offset-md-3">
-					<h3 class="text-center mb-5 pb-5">
-						Interested?
-					</h3>
+					<h2 class="mb-2">
+						Who delivers in your neighborhood?
+					</h2>
 
 					<form>
-						<div class="form-group text-center mb-3">
-							<label for="email">
-                Enter your email below.
+						<div class="form-group">
+							<label for="address">
+                Enter your address below.
               </label>
 
 							<div class="input-group mb-3">
 								<div class="input-group-prepend">
 									<span class="input-group-text">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <i class="fa fa-map-marker"></i>
                   </span>
 								</div>
 
-								<input id="email" type="text" class="form-control" placeholder="email@domain.com">
+								<input id="address" type="text" class="form-control" placeholder="Street address, city, state">
               </div>
 							</div>
 
-							<button class="btn btn-primary btn-block mb-2">
-              Submit
+							<button class="btn btn-primary btn-block">
+              Find Food
             </button>
 					</form>
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section>
 
-	<!-- <section class="what-is">
+	<section class="how-to-foodhub py-6">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-12 text-center text-light">
-					<h4 class="py-3">
-						What is?!
-					</h4>
+				<div class="col-12 text-center">
+					<h2 class="mb-2 font-weight-bold">
+						How to Foodhub
+					</h2>
 
-					<p class="pb-3">
-						Energy storage product that saves you money on your monthly electric bill
+					<p>
+						Ordering from your favorite restaurant is even easier than eating.
 					</p>
 				</div>
-			</div> -->
+			</div>
 
-	<!-- <div class="col-md-6"></div>
-		<div class="col-md-6"></div>
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img src="assets/images/map.jpg" class="rounded-circle spotlight-image" width= "200px">
+
+					<h4 class="h6 font-weight-bold">
+						The where
+					</h4>
+
+					<p>
+						Browse menus from your favorite local restaurants.
+					</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="assets/images/menu.jpg" class="rounded-circle spotlight-image" width= "200px">
+
+					<h4 class="h6 font-weight-bold">
+						The what
+					</h4>
+
+					<p>
+						Select what you want to eat. Submit your order.
+					</p>
+				</div>
+
+				<div class="col-md-4">
+					<img src="assets/images/delivery.jpg" class="rounded-circle spotlight-image" width= "200px">
+
+					<h4 class="h6 font-weight-bold">
+						The delivery
+					</h4>
+
+					<p>
+						Get the door and enjoy your food!
+					</p>
+				</div>
+
+			</div>
 		</div>
+	</section>
+
+	<section class="sound-bites bg-light py-6">
+		<div class="container-fluid">
+			<div class="row mb-4">
+				<div class="col-12 text-center">
+					<h2>
+						Sound bites
+					</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 col-lg-3">
+					<div class="media">
+						<img src="assets/images/user-1.jpg" class="rounded-circle user-image mr-3" width="50">
+						<div class="media-body">
+							<p>
+								@Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make
+								that part of my life easy. Thanks!
+							</p>
+
+							<h4 class="font-weight-bold">
+								@xtinacousins
+							</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3">
+					<div class="media">
+						<img src="assets/images/user-2.jpg" class="rounded-circle user-image mr-3" width="50">
+						<div class="media-body">
+							<p>
+								Made my first @Foodhub order today. So great to be able to order food and not have to
+								talk to anyone.
+							</p>
+
+							<h4 class="font-weight-bold">
+								@udezekene
+							</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3">
+					<div class="media">
+						<img src="assets/images/user-3.jpg" class="rounded-circle user-image mr-3" width="50">
+
+						<div class="media-body">
+							<p>
+								Shout out to Foodhub for making my life so so easy.
+							</p>
+
+							<h4 class="font-weight-bold">
+								@adellecharles
+							</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3">
+					<div class="media">
+						<img src="assets/images/user-4.jpg" class="rounded-circle user-image mr-3" width="50">
+
+						<div class="media-body">
+							<p>
+								Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our
+								office in a jiffy. FOOD!
+							</p>
+
+							<h4 class="font-weight-bold">
+								@vista
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</section> -->
-	-->
+	</section>
+
+	<section class="download-apps text-white py-6">
+		<div class="container-fluid">
+			<div class="row mb-2 text-center">
+				<div class="col-md-6 offset-md-3">
+					<h2>
+						Download apps
+					</h2>
+
+					<p class="lead">
+						Millions of users and we want to befriend each one. 900+ cities and more than 35,000
+						restaurants.
+					</p>
+
+					<img src="assets/images/app-store-badge.png" class="store-badge margin-below-bottom-xs" width="200">
+
+					<img src="assets/images/google-play-badge.png" class="store-badge margin-below-bottom-xs" width="200">
+        </div>
+				</div>
+			</div>
+	</section>
+
+	<section class="why-order bg-light py-6">
+		<div class="container-fluid">
+			<div class="row mb-4">
+				<div class="col-12 text-center">
+					<h2 class="mb-2">Why order with Foodhub?</h2>
+				</div>
+			</div>
+
+			<div class="row text-center">
+				<div class="col-md-4 ">
+					<img src="assets/images/gem.jpg" class="rounded-circle spotlight-image" width="200">
+					<h4 class="h6 font-weight-bold">Discover</h4>
+					<p>
+						We'll help you find hidden gems in your neighborhood.
+					</p>
+				</div>
+
+				<div class="col-md-4 ">
+					<img src="assets/images/like.jpg" class="rounded-circle spotlight-image" width="200">
+					<h4 class="h6 font-weight-bold"> Better</h4>
+					<p>
+						The more you use Foodhub, the better we are at making recommendations just for you.
+					</p>
+				</div>
+
+				<div class="col-md-4 ">
+					<img src="assets/images/bite.jpg" class="rounded-circle spotlight-image" width="200">
+					<h4 class="h6 font-weight-bold">Food</h4>
+					<p>
+						Enjoy each bite all the more knowing your order supports local businesses.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-foodhub py-6">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<h2 class="mb-2">About Foodhub</h2>
+				</div>
+
+				<div class="col-md-6">
+					<p>Foodhub helps you find and order food from wherever you are. How it works: you type in an
+						address, we tell you the restaurants that deliver to that locale as well as showing you droves
+						of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or
+						menu item. We'll filter your results accordingly. When you find what you're looking for, you can
+						place your order online or by phone, free of charge. Oh, and we also give you access to reviews,
+						coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you
+						get exactly what you want.</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<footer class="bg-primary text-white py-6">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2 offset-md-1 col-8 offset-2 mb-5">
+					<h4 class="h6 font-weight-bold">Sign up for special offers</h4>
+
+					<form>
+						<div class="form-group">
+							<label for="email" class="sr-only">Email address</label>
+							<input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+
+							<div class="form-group">
+								<label for="zip_code" class="sr-only">Zip Code</label>
+								<input type="number" class="form-control" id="zip_code" placeholder="Zip code">
+              </div>
+
+								<button class="btn btn-success btn-block">Send me treats</button>
+					</form>
+				</div>
+
+				<div class="col-md-2 offset-md-1 col-8 offset-2 mb-5">
+					<h4 class="h6 font-weight-bold">Get to know us</h4>
+
+					<ul class="list-unstyled">
+						<li>About Grubhub</li>
+						<li>Our apps</li>
+						<li>Our blog</li>
+						<li>Careers</li>
+						<li>Investor relations</li>
+						<li>News</li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 offset-md-1 col-8 offset-2 mb-5">
+					<h4 class="h6 font-weight-bold">Help</h4>
+
+					<ul class="list-unstyled">
+						<li>FAQ</li>
+						<li>Contact us</li>
+					</ul>
+
+					<h4 class="h6 font-weight-bold">Connect with us</h4>
+
+					<ul class="list-unstyled">
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>Instagram</li>
+						<li>YouTube</li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 offset-md-1 col-8 offset-2 mb-5">
+					<h4 class="h6 font-weight-bold">Partner with us</h4>
+
+					<ul class="list-unstyled">
+						<li>For restaurants</li>
+						<li>For drivers</li>
+						<li>For corporate accounts</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
