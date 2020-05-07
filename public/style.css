@@ -1,9 +1,41 @@
+
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 64px;
+}
+
+.navbar-brand{
+font-family: 'Passion One', cursive;
+}
+
 .who-delivers {
   background: url("img/top-hero.jpg") no-repeat center center;
   background-size: cover;
+}
+
+.why-order {
+  background: url("img/inhome.png") no-repeat center center;
+  background-size: cover;
+}
+
+.download-apps {
+  /* background: url("images/main-hero.jpg") no-repeat center center; */
+  background: url("images/main-hero.jpg");
+  background-size: cover;
+}
+
+.py-6 {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .in-home-hero {
   background: "public/img/inhome.png" no-repeat center center;
   background-size: cover;
 }
+
+div.halfOpacity {
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+} 
